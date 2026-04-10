@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="589996a5-adf0-4d7f-aa15-0c3b9907a50f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/controller/StockAdjustmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/controller/StockReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/dto/StockAdjustmentRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/dto/StockAdjustmentResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/dto/StockReportRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/dto/StockReportResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/entity/StockAdjustment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/entity/StockReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/mapper/StockAdjustmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/mapper/StockReportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/StockAdjustmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/StockReportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/service/StockAdjustmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/service/StockReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/service/impl/StockAdjustmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/service/impl/StockReportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/PurchaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/PurchaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/PurchaseReturnRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/distribution_sales_techfira/repository/PurchaseReturnRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;awaishyderbrohi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/awaishyderbrohi/distribution-sales-techfira.git&quot;,
+    &quot;accountId&quot;: &quot;f782967f-49c6-4352-86b5-5751ed06046d&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2yhXMi5HLQ93hr0SsntCeTWdg1S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DistributionSalesTechfiraApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev-faraz&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Intership work/5-8-25/distribution-sales-techfira&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;47398c8e6e93ceaa8ff4d100e3ca9e32&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.distribution_sales_techfira.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.distribution_sales_techfira.repository" />
+      <recent name="com.example.distribution_sales_techfira.controller" />
+      <recent name="com.example.distribution_sales_techfira.service.impl" />
+      <recent name="com.example.distribution_sales_techfira.dto" />
+      <recent name="com.example.distribution_sales_techfira.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DistributionSalesTechfiraApplication">
+    <configuration name="DistributionSalesTechfiraApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.distribution_sales_techfira.DistributionSalesTechfiraApplication" />
+      <module name="distribution-sales-techfira" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.distribution_sales_techfira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistributionSalesTechfiraApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="distribution-sales-techfira" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.distribution_sales_techfira.DistributionSalesTechfiraApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.distribution_sales_techfira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DistributionSalesTechfiraApplication" />
+        <item itemvalue="Application.DistributionSalesTechfiraApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="589996a5-adf0-4d7f-aa15-0c3b9907a50f" name="Changes" comment="" />
+      <created>1750287733099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750287733099</updated>
+      <workItem from="1750332250196" duration="10983000" />
+      <workItem from="1750351910842" duration="1325000" />
+      <workItem from="1750365676589" duration="2476000" />
+      <workItem from="1750405695845" duration="780000" />
+      <workItem from="1750414221990" duration="1202000" />
+      <workItem from="1750438689769" duration="4306000" />
+      <workItem from="1750449951365" duration="2713000" />
+      <workItem from="1750672961984" duration="16063000" />
+      <workItem from="1750752613781" duration="10344000" />
+      <workItem from="1750768228376" duration="3609000" />
+      <workItem from="1750775641049" duration="5135000" />
+      <workItem from="1750856587873" duration="7982000" />
+      <workItem from="1751301975670" duration="5657000" />
+      <workItem from="1751389755653" duration="1022000" />
+      <workItem from="1751457452059" duration="995000" />
+      <workItem from="1751476202478" duration="690000" />
+      <workItem from="1751477940397" duration="176000" />
+      <workItem from="1751540557204" duration="2798000" />
+      <workItem from="1751557663200" duration="8100000" />
+      <workItem from="1751621479391" duration="9987000" />
+      <workItem from="1751643866677" duration="3459000" />
+      <workItem from="1751743610871" duration="3418000" />
+      <workItem from="1751793399052" duration="3014000" />
+      <workItem from="1751810057135" duration="3417000" />
+      <workItem from="1751888315041" duration="8305000" />
+      <workItem from="1751915021245" duration="2563000" />
+      <workItem from="1751993679896" duration="770000" />
+      <workItem from="1751999090336" duration="608000" />
+      <workItem from="1752002743474" duration="601000" />
+      <workItem from="1752080558778" duration="948000" />
+      <workItem from="1753265102417" duration="956000" />
+      <workItem from="1753293960942" duration="2380000" />
+      <workItem from="1753390901000" duration="776000" />
+      <workItem from="1753716483393" duration="364000" />
+      <workItem from="1753718531985" duration="7582000" />
+      <workItem from="1753779132579" duration="1959000" />
+      <workItem from="1753872788032" duration="2169000" />
+      <workItem from="1753887790631" duration="8000000" />
+      <workItem from="1753939833022" duration="17649000" />
+      <workItem from="1753963858694" duration="9825000" />
+      <workItem from="1753981772221" duration="1072000" />
+      <workItem from="1753989617883" duration="742000" />
+      <workItem from="1754048071634" duration="955000" />
+      <workItem from="1754068349444" duration="4175000" />
+      <workItem from="1754080033676" duration="5952000" />
+      <workItem from="1754283302368" duration="736000" />
+      <workItem from="1754291274376" duration="1899000" />
+      <workItem from="1754302292766" duration="8062000" />
+      <workItem from="1754370738756" duration="1202000" />
+      <workItem from="1754374083866" duration="4402000" />
+      <workItem from="1754393042870" duration="1294000" />
+      <workItem from="1754459328591" duration="33000" />
+      <workItem from="1754492223439" duration="440000" />
+      <workItem from="1754493223034" duration="2820000" />
+      <workItem from="1754565052296" duration="2607000" />
+      <workItem from="1754576633925" duration="2662000" />
+      <workItem from="1754586706940" duration="2137000" />
+      <workItem from="1754626476124" duration="5033000" />
+      <workItem from="1754636199110" duration="2969000" />
+      <workItem from="1754911351966" duration="727000" />
+      <workItem from="1754926031035" duration="1192000" />
+      <workItem from="1754973594519" duration="61000" />
+      <workItem from="1755085149066" duration="1649000" />
+      <workItem from="1755604598183" duration="918000" />
+      <workItem from="1756275057357" duration="198000" />
+      <workItem from="1756285104096" duration="10000" />
+      <workItem from="1756356608482" duration="379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
